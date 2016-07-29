@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  KLineByManManNiu
+//
+//  Created by Apple on 16/1/6.
+//  Copyright © 2016年 NiuWenMan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+
+
+
+
+
+#define Screen_Width  [UIScreen mainScreen].bounds.size.width
+#define Screen_Height [UIScreen mainScreen].bounds.size.height
+
+
+
+#endif /* PrefixHeader_pch */

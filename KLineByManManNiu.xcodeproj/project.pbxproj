@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182631851C3CF84900F5CF77 /* SimpleChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182631841C3CF84900F5CF77 /* SimpleChartViewController.m */; };
+		1826318A1C3D122B00F5CF77 /* ChartViewSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 182631891C3D122B00F5CF77 /* ChartViewSample.m */; };
+		1826318E1C3D140E00F5CF77 /* ZheXianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826318C1C3D140E00F5CF77 /* ZheXianViewController.m */; };
+		1826318F1C3D140E00F5CF77 /* ZheXianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826318D1C3D140E00F5CF77 /* ZheXianViewController.xib */; };
 		189F61B21C33855A00131D83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F61B11C33855A00131D83 /* main.m */; };
 		189F61B51C33855A00131D83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F61B41C33855A00131D83 /* AppDelegate.m */; };
 		189F61B81C33855A00131D83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F61B71C33855A00131D83 /* ViewController.m */; };
@@ -15,6 +19,14 @@
 		189F61C01C33855A00131D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189F61BE1C33855A00131D83 /* LaunchScreen.storyboard */; };
 		189F61CB1C33855B00131D83 /* KLineByManManNiuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F61CA1C33855B00131D83 /* KLineByManManNiuTests.m */; };
 		189F61D61C33855B00131D83 /* KLineByManManNiuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F61D51C33855B00131D83 /* KLineByManManNiuUITests.m */; };
+		189F61E51C338BFF00131D83 /* MMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F61E41C338BFF00131D83 /* MMColor.m */; };
+		18A8753E1C435D92009DF446 /* ShiPieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8753D1C435D92009DF446 /* ShiPieViewController.m */; };
+		18BCC7091C34BD07008E4037 /* MMChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCC7081C34BD07008E4037 /* MMChartView.m */; };
+		18C047331C3E0D4D00F40562 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C047321C3E0D4D00F40562 /* CoreGraphics.framework */; };
+		18C047351C3E4C8000F40562 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C047341C3E4C8000F40562 /* UIKit.framework */; };
+		18EC0B211C3F64FB00776584 /* YuanBingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EC0B1F1C3F64FB00776584 /* YuanBingViewController.m */; };
+		18EC0B221C3F64FB00776584 /* YuanBingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EC0B201C3F64FB00776584 /* YuanBingViewController.xib */; };
+		18EC0B251C3F6A5800776584 /* PieYuanBingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EC0B241C3F6A5800776584 /* PieYuanBingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182631831C3CF84900F5CF77 /* SimpleChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleChartViewController.h; sourceTree = "<group>"; };
+		182631841C3CF84900F5CF77 /* SimpleChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleChartViewController.m; sourceTree = "<group>"; };
+		182631871C3CFBDF00F5CF77 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		182631881C3D122B00F5CF77 /* ChartViewSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewSample.h; sourceTree = "<group>"; };
+		182631891C3D122B00F5CF77 /* ChartViewSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewSample.m; sourceTree = "<group>"; };
+		1826318B1C3D140E00F5CF77 /* ZheXianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZheXianViewController.h; sourceTree = "<group>"; };
+		1826318C1C3D140E00F5CF77 /* ZheXianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZheXianViewController.m; sourceTree = "<group>"; };
+		1826318D1C3D140E00F5CF77 /* ZheXianViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZheXianViewController.xib; sourceTree = "<group>"; };
 		189F61AD1C33855A00131D83 /* KLineByManManNiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLineByManManNiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189F61B11C33855A00131D83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		189F61B31C33855A00131D83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +71,19 @@
 		189F61D11C33855B00131D83 /* KLineByManManNiuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLineByManManNiuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189F61D51C33855B00131D83 /* KLineByManManNiuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLineByManManNiuUITests.m; sourceTree = "<group>"; };
 		189F61D71C33855B00131D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189F61E31C338BFF00131D83 /* MMColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMColor.h; sourceTree = "<group>"; };
+		189F61E41C338BFF00131D83 /* MMColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMColor.m; sourceTree = "<group>"; };
+		18A8753C1C435D92009DF446 /* ShiPieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShiPieViewController.h; sourceTree = "<group>"; };
+		18A8753D1C435D92009DF446 /* ShiPieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShiPieViewController.m; sourceTree = "<group>"; };
+		18BCC7071C34BD07008E4037 /* MMChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMChartView.h; sourceTree = "<group>"; };
+		18BCC7081C34BD07008E4037 /* MMChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMChartView.m; sourceTree = "<group>"; };
+		18C047321C3E0D4D00F40562 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18C047341C3E4C8000F40562 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18EC0B1E1C3F64FB00776584 /* YuanBingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuanBingViewController.h; sourceTree = "<group>"; };
+		18EC0B1F1C3F64FB00776584 /* YuanBingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuanBingViewController.m; sourceTree = "<group>"; };
+		18EC0B201C3F64FB00776584 /* YuanBingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YuanBingViewController.xib; sourceTree = "<group>"; };
+		18EC0B231C3F6A5800776584 /* PieYuanBingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PieYuanBingView.h; path = ../PieYuanBingView.h; sourceTree = "<group>"; };
+		18EC0B241C3F6A5800776584 /* PieYuanBingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PieYuanBingView.m; path = ../PieYuanBingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C047351C3E4C8000F40562 /* UIKit.framework in Frameworks */,
+				18C047331C3E0D4D00F40562 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +116,8 @@
 		189F61A41C33855A00131D83 = {
 			isa = PBXGroup;
 			children = (
+				18C047341C3E4C8000F40562 /* UIKit.framework */,
+				18C047321C3E0D4D00F40562 /* CoreGraphics.framework */,
 				189F61AF1C33855A00131D83 /* KLineByManManNiu */,
 				189F61C91C33855B00131D83 /* KLineByManManNiuTests */,
 				189F61D41C33855B00131D83 /* KLineByManManNiuUITests */,
@@ -105,11 +142,30 @@
 				189F61B41C33855A00131D83 /* AppDelegate.m */,
 				189F61B61C33855A00131D83 /* ViewController.h */,
 				189F61B71C33855A00131D83 /* ViewController.m */,
+				18BCC7071C34BD07008E4037 /* MMChartView.h */,
+				18BCC7081C34BD07008E4037 /* MMChartView.m */,
+				189F61E31C338BFF00131D83 /* MMColor.h */,
+				189F61E41C338BFF00131D83 /* MMColor.m */,
 				189F61B91C33855A00131D83 /* Main.storyboard */,
+				182631871C3CFBDF00F5CF77 /* PrefixHeader.pch */,
 				189F61BC1C33855A00131D83 /* Assets.xcassets */,
 				189F61BE1C33855A00131D83 /* LaunchScreen.storyboard */,
 				189F61C11C33855A00131D83 /* Info.plist */,
 				189F61B01C33855A00131D83 /* Supporting Files */,
+				182631831C3CF84900F5CF77 /* SimpleChartViewController.h */,
+				182631841C3CF84900F5CF77 /* SimpleChartViewController.m */,
+				182631881C3D122B00F5CF77 /* ChartViewSample.h */,
+				182631891C3D122B00F5CF77 /* ChartViewSample.m */,
+				18EC0B231C3F6A5800776584 /* PieYuanBingView.h */,
+				18EC0B241C3F6A5800776584 /* PieYuanBingView.m */,
+				1826318B1C3D140E00F5CF77 /* ZheXianViewController.h */,
+				1826318C1C3D140E00F5CF77 /* ZheXianViewController.m */,
+				1826318D1C3D140E00F5CF77 /* ZheXianViewController.xib */,
+				18EC0B1E1C3F64FB00776584 /* YuanBingViewController.h */,
+				18EC0B1F1C3F64FB00776584 /* YuanBingViewController.m */,
+				18EC0B201C3F64FB00776584 /* YuanBingViewController.xib */,
+				18A8753C1C435D92009DF446 /* ShiPieViewController.h */,
+				18A8753D1C435D92009DF446 /* ShiPieViewController.m */,
 			);
 			path = KLineByManManNiu;
 			sourceTree = "<group>";
@@ -243,9 +299,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1826318F1C3D140E00F5CF77 /* ZheXianViewController.xib in Resources */,
 				189F61C01C33855A00131D83 /* LaunchScreen.storyboard in Resources */,
 				189F61BD1C33855A00131D83 /* Assets.xcassets in Resources */,
 				189F61BB1C33855A00131D83 /* Main.storyboard in Resources */,
+				18EC0B221C3F64FB00776584 /* YuanBingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +328,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1826318E1C3D140E00F5CF77 /* ZheXianViewController.m in Sources */,
+				18BCC7091C34BD07008E4037 /* MMChartView.m in Sources */,
+				1826318A1C3D122B00F5CF77 /* ChartViewSample.m in Sources */,
 				189F61B81C33855A00131D83 /* ViewController.m in Sources */,
+				189F61E51C338BFF00131D83 /* MMColor.m in Sources */,
 				189F61B51C33855A00131D83 /* AppDelegate.m in Sources */,
+				18A8753E1C435D92009DF446 /* ShiPieViewController.m in Sources */,
+				18EC0B251C3F6A5800776584 /* PieYuanBingView.m in Sources */,
 				189F61B21C33855A00131D83 /* main.m in Sources */,
+				18EC0B211C3F64FB00776584 /* YuanBingViewController.m in Sources */,
+				182631851C3CF84900F5CF77 /* SimpleChartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +479,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KLineByManManNiu/PrefixHeader.pch";
 				INFOPLIST_FILE = KLineByManManNiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NiuWenMan.KLineByManManNiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,10 +494,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KLineByManManNiu/PrefixHeader.pch";
 				INFOPLIST_FILE = KLineByManManNiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NiuWenMan.KLineByManManNiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +572,7 @@
 				189F61DC1C33855B00131D83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		189F61DD1C33855B00131D83 /* Build configuration list for PBXNativeTarget "KLineByManManNiuTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +581,7 @@
 				189F61DF1C33855B00131D83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		189F61E01C33855B00131D83 /* Build configuration list for PBXNativeTarget "KLineByManManNiuUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +590,7 @@
 				189F61E21C33855B00131D83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
